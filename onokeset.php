@@ -42,12 +42,12 @@ if ($register == false)
         }
       else
         {
-        file_put_contents("token/".$verif['data']['customer']['name'].".txt", $verif['data']['access_token']);
-                echo "\033VOUCHER INVALID/GAGAL REDEEM\n";
-            }
-            else{
-                echo "\e[92m[+] ".$claim."\n";
-                
+        file_put_contents("token/".$verif['data']['cust>
         }
+
+        {
+    }
+    }
+
 
 ?>
