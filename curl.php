@@ -3,7 +3,6 @@ error_reporting ( 0 );
 date_default_timezone_set ( "Asia/Jakarta" );
 membutuhkan __DIR__ . '/vendor/autoload.php' ;
 membutuhkan_sekali __DIR__ . '/userAgent.php' ;
-membutuhkan __DIR__ . '/smshub.php' ;
    
     //Kue Acak
     $ identitas_anonim_id = RandomUUID ( 14 ). '-' . RandomUUID ( 14 ). '-' . RandomUUID ( 8 ). '-' . RandomUUID ( 7 ). '-' . RandomUUID ( 14 );
